@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Parsons Template</title>
+        <!-- Don't touch these things -->
+        <link href="../utils/parsons.css" rel="stylesheet" />
+        <link href="../utils/lib/prettify.css" rel="stylesheet" />
+
+        <script src="../utils/lib/prettify.js"></script>
+        <script src="../utils/include.js"></script>
+    </head>
+    <body>
+        
+        <div>
+        	<!-- your problem description goes here -->
+			This is a solution to <a href="https://www.codewars.com/kata/simple-elevator">Simple Elevator</a> from CodeWars.<br>
+        	You can learn more about this problem in my CodeWars galleries.
+        </div>
+        <script>
+        	// define your challenge here 
+			var challenge = 
+				"function simple_elevator(floor, button) {\n" +
+				"	let returner = 0;\n" +
+				"	let floor_is_valid = false;\n" +
+				"	let button_is_valid = false;\n" +
+
+				"	let possible_floors = [0, 1, 2, 3];\n" +
+				"	for (let valid_floor of possible_floors) {\n" +
+				"		if (floor === valid_floor) {\n" +
+				"			floor_is_valid = true;\n" +
+				"		}\n" +
+				"	}\n" +
+
+				"	let possible_buttons = [\"0\", \"1\", \"2\", \"3\"];\n" +
+				"	for (let valid_button of possible_buttons) {\n" +
+				"		if (button === valid_button) {\n" +
+				"			button_is_valid = true;\n" +
+				"		}\n" +
+				"	}\n" +
+
+				"	if (button_is_valid && floor_is_valid) {\n" +
+				"		returner = Number(button) - floor;\n" +
+				"	}\n" +
+
+				"	return returner;\n" +
+				"};"
+        </script>
+
+        <!-- what you see -->
+        <div id="sortableTrash" class="sortable-code"></div>
+        <div id="sortable" class="sortable-code">
+        </div>
+        <div style="clear:both;"></div>
+        <p>
+            <a href="#" id="newInstanceLink">New instance</a>
+            <a href="#" id="feedbackLink">Get feedback</a>
+        </p>
+        <a href="../index.html">HOME</a>
+
+        <!-- why it works -->
+        <script src="../utils/lib/jquery.min.js"></script>
+        <script src="../utils/lib/jquery-ui.min.js"></script>
+        <script src="../utils/lib/jquery.ui.touch-punch.min.js"></script>
+        <script src="../utils/lib/underscore-min.js"></script>
+        <script src="../utils/lib/lis.js"></script>
+        <script src="../utils/parsons.js"></script>
+        <script src='../utils/index.js'></script>
+    </body>
+</html>
