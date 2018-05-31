@@ -24,4 +24,3 @@ function init(initial){
 };
 
 
-init(challenge);
