@@ -1,4 +1,4 @@
-[a + (b + c)](#a----b---b-)
+[a + (b + c)](#a-\+-\(\b-\+-c\))
 
 # Parsons Problems
 
