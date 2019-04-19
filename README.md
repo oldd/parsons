@@ -1,3 +1,5 @@
+[a + (b + c)](#a----b---b-)
+
 # Parsons Problems
 
 This repository contains a very simple but powerful type of exercise.  With parsons problems you will be presented with a randomly organized set of lines of code.  Your task is simply to place them in order.  But it's not always as easy as it sounds!  Beware of indenting (code style) and extra lines.
@@ -50,3 +52,4 @@ ___
 ___
 ### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
 
+## a + (b + c)
